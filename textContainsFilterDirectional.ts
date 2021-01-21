@@ -29,7 +29,7 @@ export function textContainsFilterDirectional(text: String, characters: String, 
 
 /**
  * Method for determining if a text contains the a set of characters in a direction.
- * Example 1: Does "abcd" contain "aCd" in the order from left to right: ("abCd", "aCd") = true.
+ * Example 1: Does "abCd" contain "aCd" in the order from left to right: ("abCd", "aCd") = true.
  * Example 2: Does "aCbd" contain "adC" in the order from left to right: ("abCd", "adC") = false.
  * @param text String to search.
  * @param characters String containing the characters to search 'text' for.
